@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b0wc7iwlsqnbu"
+path="res://.godot/imported/Demo stürmt Tesla-Gelände Berlin-Grünheide_ Disrupt Capitalism-Create Future -  #Verkehrswende! (64).mp3-c4f6fa63bec6676cda93cb7412f68254.mp3str"
+
+[deps]
+
+source_file="res://assets/Demo stürmt Tesla-Gelände Berlin-Grünheide_ Disrupt Capitalism-Create Future -  #Verkehrswende! (64).mp3"
+dest_files=["res://.godot/imported/Demo stürmt Tesla-Gelände Berlin-Grünheide_ Disrupt Capitalism-Create Future -  #Verkehrswende! (64).mp3-c4f6fa63bec6676cda93cb7412f68254.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

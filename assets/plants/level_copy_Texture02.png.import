@@ -1,0 +1,38 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://b6cd45on2a7tj"
+path.s3tc="res://.godot/imported/level_copy_Texture02.png-0e790dbe1bfdd2b1c4ef41aab940dc4f.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={
+"md5": "1cf7e0af67846eefc91c1126d74efe01"
+}
+
+[deps]
+
+source_file="res://assets/plants/level_copy_Texture02.png"
+dest_files=["res://.godot/imported/level_copy_Texture02.png-0e790dbe1bfdd2b1c4ef41aab940dc4f.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

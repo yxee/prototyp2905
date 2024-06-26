@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://dook6jr0jn5xd"]
+
+[ext_resource type="Texture2D" uid="uid://de5qmtewhiite" path="res://assets/plants/trees/Tree01.png" id="1_hh8rs"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vev4k"]
+size = Vector3(0.453125, 2.48193, 0.583008)
+
+[sub_resource type="QuadOccluder3D" id="QuadOccluder3D_ga2n7"]
+size = Vector2(0.217413, 5.1496)
+
+[sub_resource type="QuadOccluder3D" id="QuadOccluder3D_np2kq"]
+size = Vector2(0.124903, 2.70731)
+
+[node name="Tree01" type="Node3D"]
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.07082, 0)
+pixel_size = 0.0505
+billboard = 2
+shaded = true
+texture_filter = 0
+texture = ExtResource("1_hh8rs")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Sprite3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6.83457, 0)
+shape = SubResource("BoxShape3D_vev4k")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0310137, 2.83978, 0)
+occluder = SubResource("QuadOccluder3D_ga2n7")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="OccluderInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0348062, 6.22448, 0)
+occluder = SubResource("QuadOccluder3D_np2kq")

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://k1cd7j7uswm8"]
+
+[ext_resource type="PackedScene" uid="uid://femok3p0fgir" path="res://assets/radio.glb" id="1_6b3aa"]
+[ext_resource type="Material" uid="uid://d0gwlw7hhq4tr" path="res://Materials/VERTEXCOLOR.tres" id="2_qep0y"]
+
+[node name="radio" instance=ExtResource("1_6b3aa")]
+
+[node name="Cube" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_qep0y")
+surface_material_override/1 = ExtResource("2_qep0y")

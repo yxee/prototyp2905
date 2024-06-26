@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmpbl2s7hjt2v"]
+
+[ext_resource type="Texture2D" uid="uid://bn614me8qnnm3" path="res://assets/plants/Ebene 14.png" id="1_xpwwd"]
+
+[sub_resource type="PolygonOccluder3D" id="PolygonOccluder3D_tjwd1"]
+polygon = PackedVector2Array(0.113458, 0.109088, 0.0177614, 0.155595, -0.052893, 0.141285, -0.103872, -0.0313264, -0.178998, -0.111819, -0.368602, 0.0545322, -0.441045, -0.0581572, -0.425841, -0.177107, 0.457787, -0.180684, 0.333471, -0.0393756, 0.202, -0.042953)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.39098e-06, 0.183601, 0.000163794)
+shaded = true
+alpha_cut = 2
+texture_filter = 0
+texture = ExtResource("1_xpwwd")
+
+[node name="OccluderInstance3D" type="OccluderInstance3D" parent="Sprite3D"]
+occluder = SubResource("PolygonOccluder3D_tjwd1")

@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://by3phixposx16"]
+
+[ext_resource type="PackedScene" uid="uid://dook6jr0jn5xd" path="res://scenes/Tree01.tscn" id="1_d3cgc"]
+[ext_resource type="PackedScene" uid="uid://dat6rlsy2eoo0" path="res://scenes/Tree02.tscn" id="2_jba4o"]
+[ext_resource type="PackedScene" uid="uid://b3tbrn06f4oen" path="res://scenes/Tree03.tscn" id="3_8hrg4"]
+[ext_resource type="PackedScene" uid="uid://3wgk68m5p3p" path="res://scenes/Tree04.tscn" id="4_stimo"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Tree01" parent="." instance=ExtResource("1_d3cgc")]
+transform = Transform3D(0.89, 0, 0, 0, 0.89, 0, 0, 0, 0.89, 2.42871, 0, 0.122082)
+
+[node name="Tree02" parent="." instance=ExtResource("2_jba4o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00915241, 0, -2.39163)
+
+[node name="Tree03" parent="." instance=ExtResource("3_8hrg4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6192, 0, 1.20228)
+
+[node name="Tree04" parent="." instance=ExtResource("4_stimo")]
+transform = Transform3D(0.84, 0, 0, 0, 0.84, 0, 0, 0, 0.84, 0.00915241, 0, 4.43432)

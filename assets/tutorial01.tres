@@ -1,0 +1,74 @@
+[gd_resource type="SpriteFrames" load_steps=11 format=3 uid="uid://bhm3ogrw64q46"]
+
+[ext_resource type="Texture2D" uid="uid://b1xlppckrw3hj" path="res://assets/Tutorialtransparent02_sheet.png" id="1_o27v1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mohv1"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(0, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8v3d"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(427, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uw1x8"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(854, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jijl3"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(1281, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_40l8d"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(1708, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bsq6j"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(2135, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4cf48"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(2562, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ygaau"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(2989, 0, 427, 240)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f8ug8"]
+atlas = ExtResource("1_o27v1")
+region = Rect2(0, 240, 427, 240)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mohv1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8v3d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uw1x8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jijl3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_40l8d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bsq6j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4cf48")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ygaau")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f8ug8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]

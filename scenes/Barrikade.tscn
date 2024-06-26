@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://cle47bp45a1da"]
+
+[ext_resource type="PackedScene" uid="uid://cnswehrv025x" path="res://assets/tree07.glb" id="1_nxgxa"]
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(0.325, 0, 0, 0, 0.325, 0, 0, 0, 0.325, 0, 0, 0)
+
+[node name="tree07" parent="." instance=ExtResource("1_nxgxa")]
+transform = Transform3D(1, 0, 0, 0, -0.00602139, 0.999982, 0, -0.999982, -0.00602139, -0.0553234, 1.19209e-07, 24.5959)
+
+[node name="tree08" parent="." instance=ExtResource("1_nxgxa")]
+transform = Transform3D(0.951852, 0.306554, 0.00184591, -0.0547924, 0.1642, 0.984904, 0.301623, -0.937584, 0.173091, -4.65758, -0.288846, 24.5959)
+
+[node name="tree09" parent="." instance=ExtResource("1_nxgxa")]
+transform = Transform3D(-0.93251, 0.3606, -0.0198324, 0.0919578, 0.290191, 0.952541, 0.349241, 0.88643, -0.303766, -4.65758, -0.288846, -11.7343)
+
+[node name="tree10" parent="." instance=ExtResource("1_nxgxa")]
+transform = Transform3D(-0.994916, -0.0126684, 0.0999081, 0.100359, -0.0421555, 0.994058, -0.00838138, 0.999031, 0.0432123, 5.24835, -0.178259, -11.7343)
+
+[node name="tree11" parent="." instance=ExtResource("1_nxgxa")]
+transform = Transform3D(0.915611, -0.38705, -0.108852, 0.269239, 0.389162, 0.880944, -0.298609, -0.83591, 0.46053, 9.4863, -0.178259, 20.7085)
