@@ -76,7 +76,7 @@ func _ready():
 	target_camera = firstcam
 	active_camera.current = true
 	
-func _unhandled_input(event):
+func _input(event):
 	if event is InputEventMouseMotion:
 		if GlobalScript.freemovement:
 			head.rotation.z -= -event.relative.y * SENSITIVITY
